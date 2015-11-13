@@ -15,6 +15,7 @@
 		849AF42A1BF46A4300AB7F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849AF4281BF46A4300AB7F6D /* LaunchScreen.storyboard */; };
 		849AF4351BF46A4300AB7F6D /* RippleButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849AF4341BF46A4300AB7F6D /* RippleButtonDemoTests.m */; };
 		849AF4401BF46A4300AB7F6D /* RippleButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849AF43F1BF46A4300AB7F6D /* RippleButtonDemoUITests.m */; };
+		849AF4501BF46AF600AB7F6D /* CXKRippleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 849AF44F1BF46AF600AB7F6D /* CXKRippleButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		849AF43B1BF46A4300AB7F6D /* RippleButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849AF43F1BF46A4300AB7F6D /* RippleButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleButtonDemoUITests.m; sourceTree = "<group>"; };
 		849AF4411BF46A4300AB7F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849AF44E1BF46AF600AB7F6D /* CXKRippleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXKRippleButton.h; sourceTree = "<group>"; };
+		849AF44F1BF46AF600AB7F6D /* CXKRippleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXKRippleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		849AF40E1BF46A4200AB7F6D = {
 			isa = PBXGroup;
 			children = (
+				849AF44D1BF46A7A00AB7F6D /* RippleButtonView */,
 				849AF4191BF46A4200AB7F6D /* RippleButtonDemo */,
 				849AF4331BF46A4300AB7F6D /* RippleButtonDemoTests */,
 				849AF43E1BF46A4300AB7F6D /* RippleButtonDemoUITests */,
@@ -138,6 +142,15 @@
 				849AF4411BF46A4300AB7F6D /* Info.plist */,
 			);
 			path = RippleButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		849AF44D1BF46A7A00AB7F6D /* RippleButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				849AF44E1BF46AF600AB7F6D /* CXKRippleButton.h */,
+				849AF44F1BF46AF600AB7F6D /* CXKRippleButton.m */,
+			);
+			name = RippleButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				849AF4221BF46A4300AB7F6D /* ViewController.m in Sources */,
 				849AF41F1BF46A4300AB7F6D /* AppDelegate.m in Sources */,
+				849AF4501BF46AF600AB7F6D /* CXKRippleButton.m in Sources */,
 				849AF41C1BF46A4200AB7F6D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
